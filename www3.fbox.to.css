@@ -1,0 +1,120 @@
+#slider {
+  height: 35em;
+}
+
+#episodes .bl-seasons ul li.active {
+  background: #2ECC71;
+  border: 1px solid #2ECC71;
+}
+
+#episodes .bl-servers .heading ul.servers li.active {
+  border-color: transparent;
+  border-color: #2ECC71;
+  color: #2ECC71;
+}
+
+footer .top .about .icons>div .icon {
+  border: 1px solid #2ECC71;
+}
+
+footer .top .about .icons>div {
+  color: #2ECC71;
+}
+
+body.user ul.sidemenu li a.active {
+  background: #2ECC71;
+  color: #212529;
+}
+
+#episodes .bl-servers ul.episodes li a.active {
+  background: 0 0;
+  border: 1px solid #2ECC71;
+  color: #2ECC71;
+}
+
+.watch-extra section.info .info .meta .quality {
+  background: #2ECC71;
+}
+
+section.bl.slider-sm.mt-4 {
+  display: none;
+}
+
+a {
+  color: #2ECC71;
+}
+
+header #user .logged {
+  background: #2ECC71;
+  border-radius: 0px;
+}
+
+button, a{
+  border-radius: 0px !important;
+}
+
+.btn-primary {
+  color: #212529;
+  background-color: #2ECC71;
+  border-color: #2ECC71;
+}
+
+#slider .item .info .meta .quality {
+  background: #2ECC71;
+}
+
+#slider .item .info .actions .watchnow {
+  border-color: #2ECC71;
+  color: #2ECC71;
+}
+
+.filters .filter button.btn-primary {
+  background: #2ECC71;
+}
+
+#slider .paging>span.active, #slider .paging>span.swiper-pagination-bullet-active{
+  background: #2ECC71;
+}
+
+section.bl .heading .tabs>span.active {
+  background: #2ECC71;
+}
+
+
+
+a:hover {
+  color: #0E6655;
+}
+
+header #user .logged:hover {
+  background: #0E6655;
+}
+
+#slider .item .info .meta .quality:hover {
+  background: #0E6655;
+}
+
+#slider .item .info .actions .watchnow:hover {
+  border-color: #0E6655;
+  color: #0E6655;
+}
+
+.filters .filter button.btn-primary:hover {
+  background: #0E6655;
+}
+
+#slider .paging>span.active, #slider .paging>span.swiper-pagination-bullet-active:hover{
+  background: #0E6655;
+}
+
+section.bl .heading .tabs>span.active:hover {
+  background: #0E6655;
+}
+
+.filmlist.md .item {
+  width: 12%;
+}
+
+span{
+  text-transform: capitalize;
+}
