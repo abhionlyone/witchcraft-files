@@ -1,19 +1,4 @@
 (function () {
-  var observations = []
-  var mutationObserver = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      console.log(mutation);
-      observations.push(mutation)
-    });
-  });
-  mutationObserver.observe(document.documentElement, {
-    attributes: true,
-    characterData: true,
-    childList: true,
-    subtree: true,
-    attributeOldValue: true,
-    characterDataOldValue: true
-  });
   function httpGet(theUrl) {
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.open("GET", theUrl, false); // false for synchronous request
