@@ -6,6 +6,10 @@ span{
   text-transform: capitalize;
 }
 
+.filmlist.md .item {
+    width: 11.5%;
+}
+
 /* #episodes .bl-seasons ul li.active {
   background: #2ECC71;
   border: 1px solid #2ECC71;
